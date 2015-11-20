@@ -31,7 +31,7 @@ int main( int argc, char* argv[] )
     commands.push_back({"ANDS", 2});
 //    commands.push_back({"ASRS", 2});
 //    commands.push_back({"BICS", 2});
-    commands.push_back({"EROS", 2});
+    commands.push_back({"EORS", 2});
 //    commands.push_back({"LSLS", 2});
 //    commands.push_back({"LSRS", 2});
     commands.push_back({"MVNS", 2});
