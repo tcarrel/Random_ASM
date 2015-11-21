@@ -37,7 +37,9 @@ int main( int argc, char* argv[] )
     commands.push_back({"MVNS", 2});
 //    commands.push_back({"ORRS", 2});
 //    commands.push_back({"RORS", 2});
-    
+
+    cout << "ADDS r0, r0, r0" << endl;
+
     int lines = atoi(argv[1]);
     if( lines < 1 )
     {
@@ -88,6 +90,11 @@ int main( int argc, char* argv[] )
         }
         cout << endl;
     }
+    cout << "NOP" << endl;
+    cout << "NOP" << endl;
+    cout << "NOP" << endl;
+    cout << "NOP" << endl;
+    cout << "HALT" << endl;
 
     return 0;
 }
